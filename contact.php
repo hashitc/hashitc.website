@@ -1,0 +1,57 @@
+<?php
+if (
+    !isset($_POST['full_name']) ||
+    !isset($_POST['email']) ||
+    !isset($_POST['message']) ||
+    !isset($_POST['captcha']) ||
+    $_POST['captcha'] != 7
+) {
+    echo 0;
+    exit;
+}
+
+$to = "hello@groovyweb.firm.in, krunalp1993@gmail.com";
+$subject = "New Contact Inquiry from Groovy web Au: ". $_POST['full_name'];
+
+$message = "
+<html>
+<head>
+<title>". $subject ."</title>
+</head>
+<body>
+<p>New Contact Request:</p>
+<table>
+<tr>
+<th>Firstname</th>
+<th>Email</th>
+</tr>
+<tr>
+<td>". $_POST['full_name']."</td>
+<td>". $_POST['email']."</td>
+</tr>
+<tr>
+<td colspan='2'>". $_POST['message']."</td>
+</tr>
+<tr>
+<td>NDA:</td>
+<td>". isset($_POST['nda']) ? 'Yes' : 'No' ."</td>
+</tr>
+</table>
+</body>
+</html>
+";
+
+// Always set content-type when sending HTML email
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+// More headers
+$headers .= 'From: <info@groovyweb.com.au>' . "\r\n";
+
+if(mail($to,$subject,$message,$headers)) {
+    echo 1; exit;
+} else {
+    echo 2; exit;
+}
+
+?>

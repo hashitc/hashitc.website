@@ -1,0 +1,859 @@
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan-Black.eot');
+    src: url('../fonts/Spartan-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spartan-Black.woff2') format('woff2'),
+        url('../fonts/Spartan-Black.woff') format('woff'),
+        url('../fonts/Spartan-Black.ttf') format('truetype'),
+        url('../fonts/Spartan-Black.svg#Spartan-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan-Thin.eot');
+    src: url('../fonts/Spartan-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spartan-Thin.woff2') format('woff2'),
+        url('../fonts/Spartan-Thin.woff') format('woff'),
+        url('../fonts/Spartan-Thin.ttf') format('truetype'),
+        url('../fonts/Spartan-Thin.svg#Spartan-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan-Medium.eot');
+    src: url('../fonts/Spartan-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spartan-Medium.woff2') format('woff2'),
+        url('../fonts/Spartan-Medium.woff') format('woff'),
+        url('../fonts/Spartan-Medium.ttf') format('truetype'),
+        url('../fonts/Spartan-Medium.svg#Spartan-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan-Light.eot');
+    src: url('../fonts/Spartan-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spartan-Light.woff2') format('woff2'),
+        url('../fonts/Spartan-Light.woff') format('woff'),
+        url('../fonts/Spartan-Light.ttf') format('truetype'),
+        url('../fonts/Spartan-Light.svg#Spartan-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan-Regular.eot');
+    src: url('../fonts/Spartan-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spartan-Regular.woff2') format('woff2'),
+        url('../fonts/Spartan-Regular.woff') format('woff'),
+        url('../fonts/Spartan-Regular.ttf') format('truetype'),
+        url('../fonts/Spartan-Regular.svg#Spartan-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan-ExtraBold.eot');
+    src: url('../fonts/Spartan-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spartan-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Spartan-ExtraBold.woff') format('woff'),
+        url('../fonts/Spartan-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Spartan-ExtraBold.svg#Spartan-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan-Bold.eot');
+    src: url('../fonts/Spartan-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spartan-Bold.woff2') format('woff2'),
+        url('../fonts/Spartan-Bold.woff') format('woff'),
+        url('../fonts/Spartan-Bold.ttf') format('truetype'),
+        url('../fonts/Spartan-Bold.svg#Spartan-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan-SemiBold.eot');
+    src: url('../fonts/Spartan-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spartan-SemiBold.woff2') format('woff2'),
+        url('../fonts/Spartan-SemiBold.woff') format('woff'),
+        url('../fonts/Spartan-SemiBold.ttf') format('truetype'),
+        url('../fonts/Spartan-SemiBold.svg#Spartan-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan-ExtraLight.eot');
+    src: url('../fonts/Spartan-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Spartan-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Spartan-ExtraLight.woff') format('woff'),
+        url('../fonts/Spartan-ExtraLight.ttf') format('truetype'),
+        url('../fonts/Spartan-ExtraLight.svg#Spartan-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-LightItalic.eot');
+    src: url('../fonts/Nunito-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-LightItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-LightItalic.woff') format('woff'),
+        url('../fonts/Nunito-LightItalic.ttf') format('truetype'),
+        url('../fonts/Nunito-LightItalic.svg#Nunito-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Light.eot');
+    src: url('../fonts/Nunito-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-Light.woff2') format('woff2'),
+        url('../fonts/Nunito-Light.woff') format('woff'),
+        url('../fonts/Nunito-Light.ttf') format('truetype'),
+        url('../fonts/Nunito-Light.svg#Nunito-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Regular.eot');
+    src: url('../fonts/Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-Regular.woff2') format('woff2'),
+        url('../fonts/Nunito-Regular.woff') format('woff'),
+        url('../fonts/Nunito-Regular.ttf') format('truetype'),
+        url('../fonts/Nunito-Regular.svg#Nunito-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-SemiBoldItalic.eot');
+    src: url('../fonts/Nunito-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Nunito-SemiBoldItalic.ttf') format('truetype'),
+        url('../fonts/Nunito-SemiBoldItalic.svg#Nunito-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-SemiBold.eot');
+    src: url('../fonts/Nunito-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-SemiBold.woff2') format('woff2'),
+        url('../fonts/Nunito-SemiBold.woff') format('woff'),
+        url('../fonts/Nunito-SemiBold.ttf') format('truetype'),
+        url('../fonts/Nunito-SemiBold.svg#Nunito-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-BoldItalic.eot');
+    src: url('../fonts/Nunito-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-BoldItalic.woff') format('woff'),
+        url('../fonts/Nunito-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Nunito-BoldItalic.svg#Nunito-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-BlackItalic.eot');
+    src: url('../fonts/Nunito-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-BlackItalic.woff') format('woff'),
+        url('../fonts/Nunito-BlackItalic.ttf') format('truetype'),
+        url('../fonts/Nunito-BlackItalic.svg#Nunito-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Black.eot');
+    src: url('../fonts/Nunito-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-Black.woff2') format('woff2'),
+        url('../fonts/Nunito-Black.woff') format('woff'),
+        url('../fonts/Nunito-Black.ttf') format('truetype'),
+        url('../fonts/Nunito-Black.svg#Nunito-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-ExtraBoldItalic.eot');
+    src: url('../fonts/Nunito-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Nunito-ExtraBoldItalic.ttf') format('truetype'),
+        url('../fonts/Nunito-ExtraBoldItalic.svg#Nunito-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-ExtraLight.eot');
+    src: url('../fonts/Nunito-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Nunito-ExtraLight.woff') format('woff'),
+        url('../fonts/Nunito-ExtraLight.ttf') format('truetype'),
+        url('../fonts/Nunito-ExtraLight.svg#Nunito-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-ExtraBold.eot');
+    src: url('../fonts/Nunito-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Nunito-ExtraBold.woff') format('woff'),
+        url('../fonts/Nunito-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Nunito-ExtraBold.svg#Nunito-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Bold.eot');
+    src: url('../fonts/Nunito-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-Bold.woff2') format('woff2'),
+        url('../fonts/Nunito-Bold.woff') format('woff'),
+        url('../fonts/Nunito-Bold.ttf') format('truetype'),
+        url('../fonts/Nunito-Bold.svg#Nunito-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Italic.eot');
+    src: url('../fonts/Nunito-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-Italic.woff2') format('woff2'),
+        url('../fonts/Nunito-Italic.woff') format('woff'),
+        url('../fonts/Nunito-Italic.ttf') format('truetype'),
+        url('../fonts/Nunito-Italic.svg#Nunito-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-ExtraLightItalic.eot');
+    src: url('../fonts/Nunito-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Nunito-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/Nunito-ExtraLightItalic.ttf') format('truetype'),
+        url('../fonts/Nunito-ExtraLightItalic.svg#Nunito-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?d8h5s6');
+    src:  url('../fonts/icomoon.eot?d8h5s6#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?d8h5s6') format('truetype'),
+      url('../fonts/icomoon.woff?d8h5s6') format('woff'),
+      url('../fonts/icomoon.svg?d8h5s6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-sunny-day:before {
+    content: "\22a6";
+  }
+  .icon-physics:before {
+    content: "\2b09";
+  }
+  .icon-tower-bridge:before {
+    content: "\2b6c";
+  }
+  .icon-agile:before {
+    content: "\2b20";
+  }
+  .icon-android-outline:before {
+    content: "\2b21";
+  }
+  .icon-building:before {
+    content: "\2b39";
+  }
+  .icon-download:before {
+    content: "\2b77";
+  }
+  .icon-right:before {
+    content: "\2b99";
+  }
+  .icon-right1:before {
+    content: "\2b9c";
+  }
+  .icon-top:before {
+    content: "\2b87";
+  }
+  .icon-email1:before {
+    content: "\2b88";
+  }
+  .icon-experience:before {
+    content: "\2b25";
+  }
+  .icon-gate-of-india:before {
+    content: "\2ba2";
+  }
+  .icon-graphic-design:before {
+    content: "\2b91";
+  }
+  .icon-instagram:before {
+    content: "\2bb0";
+  }
+  .icon-moon:before {
+    content: "\2bbe";
+  }
+  .icon-moon-fill:before {
+    content: "\2b70";
+  }
+  .icon-networking:before {
+    content: "\2b56";
+  }
+  .icon-page-speed:before {
+    content: "\2bbf";
+  }
+  .icon-phone-call:before {
+    content: "\2b94";
+  }
+  .icon-physics1:before {
+    content: "\2bb3";
+  }
+  .icon-quotation:before {
+    content: "\2bb6";
+  }
+  .icon-quotation-bottom:before {
+    content: "\2bb9";
+  }
+  .icon-science:before {
+    content: "\2bce";
+  }
+  .icon-skype-outline:before {
+    content: "\2b86";
+  }
+  .icon-android-logo:before {
+    content: "\2200";
+  }
+  .icon-apple-logo-1:before {
+    content: "\2201";
+  }
+  .icon-fluttere69eaaa3:before {
+    content: "\2202";
+  }
+  .icon-yii-seeklogocom:before {
+    content: "\2204";
+  }
+  .icon-Agile-Development:before {
+    content: "\2205";
+  }
+  .icon-b2b:before {
+    content: "\2206";
+  }
+  .icon-b2c:before {
+    content: "\2207";
+  }
+  .icon-backend:before {
+    content: "\2208";
+  }
+  .icon-Block-Chain-Development .path1:before {
+    content: "\2209";
+    color: rgb(255, 255, 255);
+  }
+  .icon-Block-Chain-Development .path2:before {
+    content: "\220a";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Block-Chain-Development .path3:before {
+    content: "\220b";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Block-Chain-Development .path4:before {
+    content: "\220c";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-chat:before {
+    content: "\220d";
+  }
+  .icon-cms:before {
+    content: "\220e";
+  }
+  .icon-contact:before {
+    content: "\220f";
+  }
+  .icon-Dedicated-Resource-Hiring .path1:before {
+    content: "\2210";
+    color: rgb(255, 255, 255);
+  }
+  .icon-Dedicated-Resource-Hiring .path2:before {
+    content: "\2212";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Dedicated-Resource-Hiring .path3:before {
+    content: "\2213";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Dedicated-Resource-Hiring .path4:before {
+    content: "\2214";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Dedicated-Resource-Hiring .path5:before {
+    content: "\2215";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Dedicated-Resource-Hiring .path6:before {
+    content: "\2216";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Dedicated-Resource-Hiring .path7:before {
+    content: "\2217";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Dedicated-Resource-Hiring .path8:before {
+    content: "\2218";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Dedicated-Resource-Hiring .path9:before {
+    content: "\2219";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Dedicated-Resource-Hiring .path10:before {
+    content: "\221a";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Dedicated-Resource-Hiring .path11:before {
+    content: "\221b";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-deliver:before {
+    content: "\2211";
+  }
+  .icon-design:before {
+    content: "\221c";
+  }
+  .icon-Desktop-App-Development .path1:before {
+    content: "\221d";
+    color: rgb(255, 255, 255);
+  }
+  .icon-Desktop-App-Development .path2:before {
+    content: "\221e";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Desktop-App-Development .path3:before {
+    content: "\221f";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Desktop-App-Development .path4:before {
+    content: "\2220";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Desktop-App-Development .path5:before {
+    content: "\2221";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Desktop-App-Development .path6:before {
+    content: "\2222";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Desktop-App-Development .path7:before {
+    content: "\2223";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Desktop-App-Development .path8:before {
+    content: "\2224";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-email:before {
+    content: "\2225";
+  }
+  .icon-enterprice:before {
+    content: "\2226";
+  }
+  .icon-facebook:before {
+    content: "\2227";
+  }
+  .icon-frontend:before {
+    content: "\2228";
+  }
+  .icon-information:before {
+    content: "\2229";
+  }
+  .icon-IOT-Development .path1:before {
+    content: "\222d";
+    color: rgb(255, 255, 255);
+  }
+  .icon-IOT-Development .path2:before {
+    content: "\222e";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-IOT-Development .path3:before {
+    content: "\222f";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-IOT-Development .path4:before {
+    content: "\2230";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-IOT-Development .path5:before {
+    content: "\2231";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-IOT-Development .path6:before {
+    content: "\2232";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-IP-Protection:before {
+    content: "\222c";
+  }
+  .icon-linkedin:before {
+    content: "\2233";
+  }
+  .icon-Mainrainance:before {
+    content: "\2234";
+  }
+  .icon-Maintenance-Services:before {
+    content: "\2236";
+  }
+  .icon-Mobile-App-Development .path1:before {
+    content: "\2237";
+    color: rgb(255, 255, 255);
+  }
+  .icon-Mobile-App-Development .path2:before {
+    content: "\2239";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Mobile-App-Development .path3:before {
+    content: "\223a";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Mobile-App-Development .path4:before {
+    content: "\223b";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Mobile-App-Development .path5:before {
+    content: "\223c";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Mobile-App-Development .path6:before {
+    content: "\223d";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Mobile-App-Development .path7:before {
+    content: "\223e";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-mobile:before {
+    content: "\2238";
+  }
+  .icon-MVP-Development .path1:before {
+    content: "\223f";
+    color: rgb(255, 255, 255);
+  }
+  .icon-MVP-Development .path2:before {
+    content: "\2240";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path3:before {
+    content: "\2241";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path4:before {
+    content: "\2242";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path5:before {
+    content: "\2243";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path6:before {
+    content: "\2244";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path7:before {
+    content: "\2245";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-MVP-Development .path8:before {
+    content: "\2246";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-MVP-Development .path9:before {
+    content: "\2247";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-MVP-Development .path10:before {
+    content: "\2248";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path11:before {
+    content: "\2249";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path12:before {
+    content: "\224a";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path13:before {
+    content: "\224b";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path14:before {
+    content: "\224c";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path15:before {
+    content: "\224d";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path16:before {
+    content: "\224e";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path17:before {
+    content: "\224f";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path18:before {
+    content: "\2250";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path19:before {
+    content: "\2251";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-MVP-Development .path20:before {
+    content: "\2252";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-next:before {
+    content: "\2253";
+  }
+  .icon-Pre:before {
+    content: "\e919";
+  }
+  .icon-paperclip:before {
+    content: "\2254";
+  }
+  .icon-profits:before {
+    content: "\2255";
+  }
+  .icon-prototype:before {
+    content: "\2268";
+  }
+  .icon-QA--Incremental:before {
+    content: "\2257";
+  }
+  .icon-rating:before {
+    content: "\2258";
+  }
+  .icon-right-arrow:before {
+    content: "\2259";
+  }
+  .icon-SAAS-Development .path1:before {
+    content: "\225b";
+    color: rgb(255, 255, 255);
+  }
+  .icon-SAAS-Development .path2:before {
+    content: "\225c";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-SAAS-Development .path3:before {
+    content: "\225d";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-search:before {
+    content: "\227c";
+  }
+  .icon-solution:before {
+    content: "\2280";
+  }
+  .icon-success:before {
+    content: "\22b6";
+  }
+  .icon-support:before {
+    content: "\22ca";
+  }
+  .icon-university:before {
+    content: "\2296";
+  }
+  .icon-Web-Application-Development .path1:before {
+    content: "\229a";
+    color: rgb(255, 255, 255);
+  }
+  .icon-Web-Application-Development .path2:before {
+    content: "\229b";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Web-Application-Development .path3:before {
+    content: "\229c";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Web-Application-Development .path4:before {
+    content: "\229d";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Web-Application-Development .path5:before {
+    content: "\229e";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Web-Application-Development .path6:before {
+    content: "\229f";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Web-Application-Development .path7:before {
+    content: "\22a0";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Web-Application-Development .path8:before {
+    content: "\22a1";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Web-Application-Development .path9:before {
+    content: "\22a2";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Web-Application-Development .path10:before {
+    content: "\22a3";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Web-Application-Development .path11:before {
+    content: "\22a4";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-Web-Application-Development .path12:before {
+    content: "\22a5";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  
+

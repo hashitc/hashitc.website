@@ -1,0 +1,823 @@
+<?PHP
+	if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on") {
+		header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], true, 301);
+		//Prevent the rest of the script from executing.
+		exit;
+	}
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--====== Required meta tags ======-->
+	<meta charset="utf-8" />
+
+	<!-- SEO TAGS -->
+	<title>Best Web and Mobile App development company in Australia, Sydney | Groovy Web</title>
+	<meta name="title" content="Best Web and Mobile App development company in Australia, Sydney | Groovy Web">
+	<meta name="description" content="Groovy Web is a top and best web and mobile app development company in Australia, Sydney, Melbourne, Brisbane. We are an Award-Winning IT Company.">
+	<meta name="keywords" content="Groovy Web Australia, Mobile App development company, Website Design Company, Website development company, Top IT Company">
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="7 days">
+	<meta name="author" content="Groovy Web">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://groovyweb.com.au">
+	<meta property="og:title" content="Best Web and Mobile App development company in Australia, Sydney | Groovy Web">
+	<meta property="og:description" content="Groovy Web is a top and best web and mobile app development company in Australia, Sydney, Melbourne, Brisbane. We are an Award-Winning IT Company.">
+	<meta property="og:image" content="assets/img/OG.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://groovyweb.com.au">
+	<meta property="twitter:title" content="Best Web and Mobile App development company in Australia, Sydney | Groovy Web">
+	<meta property="twitter:description" content="Groovy Web is a top and best web and mobile app development company in Australia, Sydney, Melbourne, Brisbane. We are an Award-Winning IT Company.">
+	<meta property="twitter:image" content="assets/img/OG.png">
+
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<!--====== Favicon Icon ======-->
+	<link rel="shortcut icon" href="assets/img/icon/favicon.ico" type="img/png" />
+	<!--====== Animate Css ======-->
+	<link rel="stylesheet" href="assets/css/animate.min.css">
+	<!--====== Bootstrap css ======-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<!--====== Fontawesome css ======-->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+	<!--====== Magnific Popup css ======-->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css" />
+	<!--====== Owl Carousel css ======-->
+	<link rel="stylesheet" href="assets/css/slick.css" />
+	<!--====== Mean Menu ======-->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css" />
+	<!--====== Default css ======-->
+	<link rel="stylesheet" href="assets/css/default.css" />
+	<!--====== Fonts css ======-->
+	<link rel="stylesheet" href="assets/css/fonts.css" />
+	<!--====== Style css ======-->
+	<link rel="stylesheet" href="assets/css/style.min.css" />
+	<!--====== Custom css ======-->
+	<link rel="stylesheet" href="assets/css/custom.css" />
+	<meta name="google-site-verification" content="EUgVhhqijNPpJ3GLpYx6nsoYJxB0Mmkgmfs1l6WHpbk" />
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-M4C2LXP');</script>
+	<!-- End Google Tag Manager -->
+</head>
+
+<body>
+	<!--====== PRELOADER ======-->
+		<div class="loaderOne">
+			<div>
+				<ul>
+					<li><img src="assets/img/GoGroovyAppsWhite.png" alt=""></li>
+					<!-- <li>G</li>
+					<li>R</li>
+					<li>O</li>
+					<li>O</li>
+					<li>V</li>
+					<li>Y</li> -->
+					<div class="dot">
+						<div class="loading">
+							<span class="loading__pill"></span>
+							<span class="loading__pill"></span>
+							<span class="loading__pill"></span>
+						</div>
+					</div>
+				</ul>
+			
+			</div>
+			<canvas id="canvasID"></canvas>
+		</div>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4C2LXP"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<!--====== HEADER PART START ======-->
+	<header class="haeder-absolute">
+		<div class="container-fluid container-extra">
+			<div class="row">
+				<div class="col-12">
+					<nav class="nav align-items-center justify-content-between">
+						<div class="logo">
+							<a href="index.html"><img src="assets/img/GoGroovyApps.png" alt="Cantus"></a>
+						</div>
+						<div class="main-mneu">
+							<ul>
+								<li><a href="#home"></a></li>
+								<li><a href="#about">About Us</a></li>
+								<li><a href="#service">Services</a></li>
+								<li><a href="#portfolio">Work</a></li>
+								<li><a href="#team">Team</a></li>
+								<li><a href="#Client">Client</a></li>	
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="col-12">
+					<div class="mobilemenu"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!--====== HEADER PART END ======-->
+	<!--====== BANNER SECTION START ======-->
+	<section class="banner-section" id="home">
+		<div class="container-fluid container-extra">
+			<div class="row">
+				<div class="col-lg-6 col-md-8">
+					<div class="banner-text pt-30">
+						<h1 class="wow slideInLeft" data-wow-delay=".4s">Best Web and Mobile App development company in Australia</h1>
+						<span class="banner-promo wow slideInLeft" data-wow-delay=".3s">Groovy is a modern digital studio, helping businesses to increase their revenue through innovative digital solutions. We have expertise in custom cloud, web and mobile application development.</span>
+						<a href="#service" class="banner-btn common-btn blue wow fadeInUp" data-wow-delay=".5s">Discover Services</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="banner-img" style="background-image: url(assets/img/Img_05.png);"></div>
+	</section>
+	<!--====== BANNER SECTION END ======-->
+
+	<!--====== ABOUT SECTION START ======-->
+	<section class="about-section pt-110" id="about">
+		
+		<div class="col-lg-8 col-md-8 offset-md-2 clearfix col-sm-12 text-center">
+			<div class="section-title mb-50 wow fadeInRight" data-wow-delay=".5s">
+				<h2 class="AboutTextSub blue">We are Groovy</h2>
+				<p class="title-tag">Groovy Web is a top and best web and mobile app development company in Australia, Sydney, Melbourne, Brisbane. We are an Award-Winning IT Company.
+				</p>
+			</div>
+		</div>
+
+		<div class="BringDataMain">
+            <div class="bringBg">
+              <div class="rightBring">
+
+                <!-- <div class="videoBring">
+                    <img src="assets/img/MilestonesImg.png" alt="video" class="videosnap">
+                    <a href="#" class="videoPlay">
+                      <img src="assets/img/play.png" alt="play">
+                    </a>
+                </div> -->
+			
+
+                <div class="box-blue" data-match-height="groupName">
+                  <div class="bringDetails">
+                    <h2 class="counter-num"><span class="counter">500</span>+</h2>
+                    <span>Project Delivered</span>
+                  </div>
+
+                  <div class="bringDetails">
+					<h2 class="counter-num"><span class="counter">150</span>%</h2>
+                    <span>Average Company Growth</span>
+                  </div>
+                </div>
+
+                <div class="box-blue" style="background-color: #0D49B9;" data-match-height="groupName">
+                  <div class="bringDetails">
+					<h2 class="counter-num"><span class="counter">250</span>+</h2>
+                    <span>Happy Clients &nbsp;&nbsp;</span>
+                  </div>
+
+                  <div class="bringDetails">
+                  	<h2 class="counter-num"><span class="counter">5</span>/5</h2>
+                    <span>Ratings On Clutch.Co</span>
+                  </div>
+                </div>
+
+                <div class="box-blue" style="background-color: #1050C8;" data-match-height="groupName">
+                  <div class="bringDetails">
+					<h2 class="counter-num"><span class="counter">99</span>+</h2>
+                    <span>Client Satisfaction Rate</span>
+                  </div>
+
+                  <div class="bringDetails">
+					<h2 class="counter-num"><span class="counter">40</span>+</h2>
+                    <span>In-House Talent</span>
+                  </div>
+                </div>
+
+                <div class="box-blue" style="background-color: #1559D8;" data-match-height="groupName">
+                  <div class="bringDetails">
+					<h2 class="counter-num"><span class="counter">50</span>%</h2>
+                    <span>Recurring Clients</span>
+                  </div>
+
+                </div>
+                
+              </div>
+              <div class="leftBring">
+                <div class="lifeGroovy">
+                  <!-- <h2>We are Groovy</h2> -->
+                  <!-- <p>Groovy is a modern digital studio, helping businesses to increase their revenue through innovative digital solutions. We have expertise in custom cloud, web and mobile application development.
+				</p> -->
+                    
+                      <!-- <div class="project-explore ReadMore text-left pt-50">
+						<a href="#service" class="custom-btn-white common-btn blue wow fadeInUp" data-wow-delay=".5s">What we do</a>
+                      </div> -->
+
+						<div class="about-text">
+							<ul class="about-list">
+								<li class="wow fadeInUp" data-wow-delay=".7s"  data-match-height-li="groupNameLi">
+									<div class="list-desc">
+										<h4>1. Plan the work and work the plan</h4>
+										<p>Failing To Plan Is Planning To Fail. Proper Planning And Preparation Is Key To a Successful Product</p>
+									</div>
+								</li>
+								<li class="wow fadeInUp" data-wow-delay=".9s"  data-match-height-li="groupNameLi">
+									<div class="list-desc">
+										<h4>3. Everything is possible</h4>
+										<p>Everything Is Possible, The Impossible Just Takes Longer. Dream - Believe - Work Hard - Achieve</p>
+									</div>
+								</li>
+		
+								<li class="wow fadeInUp" data-wow-delay=".7s"  data-match-height-li="groupNameLi">
+									<div class="list-desc">
+										<h4>5. Pleasure Puts Perfection</h4>
+										<p>Pleasure In The Job Puts Perfection In The Work, That’s Why We Do The Web.</p>
+									</div>
+								</li>
+							</ul>
+		
+							<ul class="about-list">
+								
+								<li class="wow fadeInUp" data-wow-delay=".9s"  data-match-height-li="groupNameLi">
+									<div class="list-desc">
+										<h4>2. Every Project is Special</h4>
+										<p>For Us, Every Project Is Special. We Give Our 100% To Every Small And Big Projects That Come To Us.</p>
+									</div>
+								</li>
+								<li class="wow fadeInUp" data-wow-delay=".9s"  data-match-height-li="groupNameLi">
+									<div class="list-desc">
+										<h4>4. We work with you</h4>
+										<p>We Don’t Work For You, We Work With You. Working Together Is Key To Success.</p>
+									</div>
+								</li>
+								<li class="wow fadeInUp" data-wow-delay=".9s"  data-match-height-li="groupNameLi">
+									<div class="list-desc">
+										<h4>6. Keep Communicating with Clients</h4>
+										<p>Projects Can’t Be Successful Without a Proper Amount Of Communication.</p>
+									</div>
+								</li>
+							</ul>
+		
+						</div>
+			
+
+                </div>
+			
+                <div class="box-blue" style="background-color: #1E62E2;" data-match-height="groupName"></div>
+                <div class="box-blue" style="background-color: #266AEC;" data-match-height="groupName"></div>
+                <div class="box-blue" style="background-color: #3175F8;" data-match-height="groupName"></div>
+
+              </div>
+            </div>
+          </div>
+		
+	</section>
+	<!--====== ABOUT SECTION END ======-->
+
+		<!--====== SERVICE SECTION START ======-->
+		<section class="service-section  pt-120 pb-80" id="service">
+			<div class="container">
+				<div class="section-title mb-100 wow fadeInLeft text-center" data-wow-delay=".3s">
+					<h2 class="AboutTextSub blue"> Our Expertise</h2>
+					<p class="title-tag"> Groovy is a complete one stop IT solution that provides a wide range of services which include mobile app development,web development,e-commerce development and digital marketing.
+					</p>
+				</div>
+	
+				<!-- Services Loop -->
+				<!-- <div class="row team-loop wow fadeInUp" data-wow-delay=".5s" id="ServicesSlider"> -->
+					<div class="row team-loop wow fadeInUp" data-wow-delay=".5s">
+						<!-- Single Service  -->
+						<div class="col-lg-4 col-md-6 col-sm-6" >
+							<div class="service-box" data-match-height-Ex="groupNameEx">
+								<div class="icon primary-color">
+									<i class="fal fa-mobile-android-alt"></i>
+								</div>
+								<h4>Mobile App development</h4>
+								<p>There are so many ways to build mobile apps in the market and we happen to be experts in some of the best technologies to build custom, efficient, and engaging mobile applications. We use high-end, latest technologies for building attractive, user friendly, and widely accepted iOS and Android mobile applications like React Native or Flutter.</p>
+								<!-- <a href="#" class="link">read more <i class="fal fa-long-arrow-right"></i></a> -->
+							</div>
+						</div>
+						<!-- Single Service  -->
+						<div class="col-lg-4 col-md-6 col-sm-6" >
+							<div class="service-box" data-match-height-Ex="groupNameEx">
+								<div class="icon primary-color">
+									<i class="far fa-browser"></i>
+								</div>
+								<h4>Web Application development</h4>
+								<p>We take pride in our ability to deliver the best and cost-effective custom web design and development solutions to create outstanding websites, web applications, admin panels, web-tools, etc.
+								</p>
+								<!-- <a href="#" class="link">read more <i class="fal fa-long-arrow-right"></i></a> -->
+							</div>
+						</div>
+						<!-- Single Service  -->
+						<div class="col-lg-4 col-md-6 col-sm-6 mx-auto">
+							<div class="service-box" data-match-height-Ex="groupNameEx">
+								<div class="icon primary-color">
+									<i class="far fa-layer-group"></i>
+								</div>
+								<h4>MERN stack development</h4>
+								<p>Using MERN stack, we have developed some of the most complex, challenging, and custom web applications with multiple features. We have a great experience with the technologies that fall under the MERN stack like MongoDB, ExpressJS, React.js, and Node.js.  </p>
+								<!-- <a href="#" class="link">read more <i class="fal fa-long-arrow-right"></i></a> -->
+							</div>
+						</div>
+	
+							<!-- Single Service  -->
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="service-box" data-match-height-Ex="groupNameEx">
+							<div class="icon primary-color">
+								<i class="far fa-terminal"></i>
+							</div>
+							<h4>SAAS development</h4>
+							<p>Groovy has transformed businesses and their cloud journey with the goal to develop solutions that are highly scalable, operable at a high speed, and work behind high security walls.</p>
+							<!-- <a href="#" class="link">read more <i class="fal fa-long-arrow-right"></i></a> -->
+						</div>
+					</div>
+					<!-- Single Service  -->
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="service-box" data-match-height-Ex="groupNameEx">
+							<div class="icon primary-color">
+								<i class="far fa-window-maximize"></i>
+							</div>
+							<h4>Desktop App development</h4>
+							<p>We use Electron JS that allows us to create Desktop applications with GUIs using web technologies
+							</p>
+							<p>We use Electron js to develop cross platform applications which are compatible with Mac, Windows, and Linux platforms.</p>
+							<!-- <a href="#" class="link">read more <i class="fal fa-long-arrow-right"></i></a> -->
+						</div>
+					</div>
+					<!-- Single Service  -->
+					<div class="col-lg-4 col-md-6 col-sm-6 mx-auto">
+						<div class="service-box" data-match-height-Ex="groupNameEx">
+							<div class="icon primary-color">
+								<i class="fab fa-connectdevelop"></i>
+							</div>
+							<h4>BlockChain Development</h4>
+							<p>We deliver streamlined setup of Blockchain technologies with advanced encryption features. We are looking forward to making nameless transactions easier using our custom development modules for different industrial sectors. </p>
+							<!-- <a href="#" class="link">read more <i class="fal fa-long-arrow-right"></i></a> -->
+						</div>
+					</div>
+	
+						<!-- Single Service  -->
+						<div class="col-lg-4 col-md-6 col-sm-6 mx-auto">
+							<div class="service-box" data-match-height-Ex="groupNameEx">
+								<div class="icon primary-color">
+									<i class="fas fa-code"></i>
+								</div>
+								<h4>MVP Development</h4>
+								<p>Using us to develop your Minimum Viable Product (MVP), we make sure that you have all the right information, suggestions, alternate solutions for building a product that's really right for your customers and their needs. </p>
+								<!-- <a href="#" class="link">read more <i class="fal fa-long-arrow-right"></i></a> -->
+							</div>
+						</div>
+	
+							<!-- Single Service  -->
+					<div class="col-lg-4 col-md-6 col-sm-6 mx-auto">
+						<div class="service-box" data-match-height-Ex="groupNameEx">
+							<div class="icon primary-color">
+								<i class="fas fa-network-wired"></i>
+							</div>
+							<h4>IOT Development</h4>
+							<p>Our team of IoT experts offers a wide spectrum of development services using advanced technologies to upgrade your devices into smart devices, and streamline and automate complex business processes.</p>
+							<!-- <a href="#" class="link">read more <i class="fal fa-long-arrow-right"></i></a> -->
+						</div>
+					</div>
+						<!-- Single Service  -->
+						<div class="col-lg-4 col-md-6 col-sm-6 mx-auto">
+							<div class="service-box" data-match-height-Ex="groupNameEx">
+								<div class="icon primary-color">
+									<i class="fas fa-spinner"></i>
+								</div>
+								<h4>Page load time optimisation</h4>
+								<p>Page load optimization is a strategy that is seldom ignored but actually is very crucial for SEO. We ensure that your website loads quickly for visitors because we don’t want your site to lose conversions and revenue. </p>
+								<!-- <a href="#" class="link">read more <i class="fal fa-long-arrow-right"></i></a> -->
+							</div>
+						</div>
+							<!-- Single Service  -->
+					<div class="col-lg-4 col-md-6 col-sm-6 mx-auto">
+						<div class="service-box mb-0" data-match-height-Ex="groupNameEx">
+							<div class="icon primary-color">
+								<i class="fal fa-user-tie"></i>
+							</div>
+							<h4>Dedicated Resource Hiring</h4>
+							<p>With this module you have the power to select either one resource or create your own team for your product to work on your terms. </p>
+							<!-- <a href="#" class="link">read more <i class="fal fa-long-arrow-right"></i></a> -->
+						</div>
+					</div>
+						<!-- Single Service  -->
+						<div class="col-lg-4 col-md-6 col-sm-6 mx-auto">
+							<div class="service-box mb-0" data-match-height-Ex="groupNameEx">
+								<div class="icon primary-color">
+									<i class="fal fa-tools"></i>
+								</div>
+								<h4>Maintenance services</h4>
+								<p>Our professionals maintain your products to make sure that your business achieves maximum productivity and profitability. </p>
+								<!-- <a href="#" class="link">read more <i class="fal fa-long-arrow-right"></i></a> -->
+							</div>
+						</div>
+
+							<!-- Single Service  -->
+							<div class="col-lg-4 col-md-6 col-sm-6 mx-auto">
+							
+							</div>
+				</div>
+			</div>
+	
+		</section>
+		<!--====== SERVICE SECTION END ======-->
+
+	<!--====== PROJECT SECTION START ======-->
+	<section class="portfolio-section pt-60 pb-110" id="portfolio">
+		<div class="container">
+			<div class="portfolio-top mb-50">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title wow fadeInLeft" data-wow-delay=".3s">
+							<h2 class="AboutTextSub blue">Selected Work</h2>
+							<p class="title-tag">We are recognized for the pioneering approach of designing and delivering iconic experience and services that satisfies our clients.</p>
+						</div>
+					</div>
+					<div class="col-lg-12 pt-30">
+						<div class="portfolio-menu wow fadeInRight text-center" data-wow-delay=".3s">
+							<ul>
+								<li data-filter="*" class="active">All</li>
+								<li data-filter=".pro-1">FilesDNA</li>
+								<li data-filter=".pro-2">Fan Rating</li>
+								<li data-filter=".pro-3">Tallo</li>
+								<li data-filter=".pro-4">My Diabetes</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid container-extra">
+			<div class="portfolio-boxes  wow fadeInUp" data-wow-delay=".5s">
+				<div class="row grid">
+					<div class="col-lg-4 grid-item col-md-6 pro-1">
+						<div class="single-portfolio-box long"
+							style="background-image: url(assets/img/portfolio/Bitmap.webp);">
+							<div class="portfolio-action">
+								<a href="assets/img/portfolio/Bitmap.webp" class="image-popup"><i
+										class="far fa-search"></i></a>
+								<!-- <a href="#"><i class="far fa-link"></i></a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 grid-item col-md-6 pro-1">
+						<div class="single-portfolio-box"
+							style="background-image: url(assets/img/portfolio/Bitmap-2.webp);">
+							<div class="portfolio-action">
+								<a href="assets/img/portfolio/Bitmap-2.webp" class="image-popup"><i
+										class="far fa-search"></i></a>
+								<!-- <a href="#"><i class="far fa-link"></i></a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 grid-item col-md-6 pro-2">
+						<div class="single-portfolio-box"
+							style="background-image: url(assets/img/portfolio/Bitmap-4.webp);">
+							<div class="portfolio-action">
+								<a href="assets/img/portfolio/Bitmap-4.webp" class="image-popup"><i
+										class="far fa-search"></i></a>
+								<!-- <a href="#"><i class="far fa-link"></i></a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 grid-item col-md-6 pro-3">
+						<div class="single-portfolio-box"
+							style="background-image: url(assets/img/portfolio/Bitmap-3.webp);">
+							<div class="portfolio-action">
+								<a href="assets/img/portfolio/Bitmap-3.webp" class="image-popup"><i
+										class="far fa-search"></i></a>
+								<!-- <a href="#"><i class="far fa-link"></i></a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 grid-item col-md-6 pro-4">
+						<div class="single-portfolio-box"
+							style="background-image: url(assets/img/portfolio/Bitmap-5.webp);">
+							<div class="portfolio-action">
+								<a href="assets/img/portfolio/Bitmap-5.webp" class="image-popup"><i
+										class="far fa-search"></i></a>
+								<!-- <a href="#"><i class="far fa-link"></i></a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== PROJECT SECTION END ======-->
+
+	<!--====== TEAM SECTION START ======-->
+	<!-- <section class="team-section bg-color pt-100 pb-100" id="team">
+		<div class="container">
+			<div class="section-title text-center mb-70 wow fadeInLeft" data-wow-delay=".5s">
+				<h2 class="AboutTextSub blue">Our Experts</h2>
+				<p class="title-tag">When ‘I’ is replaced by ‘We’ Even ‘illness’ becomes ‘Wellness’</p>
+			</div>
+
+			<div class="row team-loop wow fadeInUp" data-wow-delay=".5s" id="teamSlider">
+				<div class="col-lg-4">
+					<div class="team-box">
+						<div class="team-img primary-color">
+							<img src="assets/img/team/01.jpeg" alt="Image">
+						</div>
+						<h4>Vidya J.</h4>
+						<div class="team-pro">Business Partner</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="team-box">
+						<div class="team-img primary-color">
+							<img src="assets/img/team/02.webp" alt="Image">
+						</div>
+						<h4>Krunal Panchal</h4>
+						<div class="team-pro">CEO and Regional Tech Head</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="team-box">
+						<div class="team-img third-color">
+							<img src="assets/img/team/03.webp" alt="Image">
+						</div>
+						<h4>Sagar Patel</h4>
+						<div class="team-pro">CTO and Project Manager</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section> -->
+	<!--====== TEAM SECTION END ======-->
+
+	<!--====== TESTIMONIAL SECTION START ======-->
+	<section class="testimonial-section pt-100 pb-20" id="Client">
+		<div class="container">
+
+			<div class="section-title text-center mb-50 wow fadeInLeft" data-wow-delay=".5s">
+				<h2 class="AboutTextSub blue">Client Testimonials</h2>
+				<p class="title-tag">Clients' Valuable Feedback</p>
+			</div>
+
+			<div class="row justify-content-center justify-content-lg-start">
+				<div class="col-lg-12 col-md-10">
+					<!-- Testimonial Author Carousel -->
+				
+					<div class="testimonial-slider wow fadeInLeft" data-wow-delay=".7s" id="testimonialSlide">
+
+				<!-- Testimonial Slider 1 -->
+						<div class="sliderData">
+							
+							<div class="single-testimonial">
+								<div class="subTestimonial">
+									<p>The client is very pleased with Groovy Web LLP’s services and capabilities. Their team maintains a range of expertise in various areas, from web design to mobile development. Customers can expect a knowledgeable, transparent, and truthful partner.
+									</p>
+									<h4 class="author">Mohammed Sahib <span class="author-pro">CEO, Borderless Security </span></h4>
+								</div>
+								<div class="subTestimonial">
+									<p>Groovy Web LLP has been well organized, updating the client twice a week on the progress. They are always on time, meeting all of the client's schedules and needs. Moreover, they solve problems naturally, responding immediately to any question.
+									</p>
+									<h4 class="author">Candida Agazzi<span class="author-pro">Product Owner, Sport Innovation Company </span></h4>
+								</div>
+							</div>
+							
+						</div>
+				<!-- Testimonial Slider 1 -->
+
+						<!-- Testimonial Slider 2 -->
+						<div class="sliderData">
+							
+							<div class="single-testimonial">
+								<div class="subTestimonial">
+									<p>Groovy Web LLP delivered a unique product that adheres to the client's requirements. The team facilitated a satisfactory flow of communication and scheduling. Their systematic approach in developing the product was commended by the partner.
+									</p>
+									<h4 class="author">Palaniappan Kannan <span class="author-pro">Founder & Director, R & R Consultant LLP </span></h4>
+								</div>
+								<div class="subTestimonial">
+									<p>A year since Groovy Web LLP launched the database, the clients have been able to monitor the training. The system is stable and suites the school's requirements. The team demonstrates their commitment, expertise, and initiative. Above all, they're able to give effective and helpful suggestions.
+									</p>
+									<h4 class="author">Marc Schnetzer <span class="author-pro"> Accountable Manager, Helicopter School Association </span></h4>
+								</div>
+							</div>
+								
+						</div>
+					<!-- Testimonial Slider 2 -->
+
+								<!-- Testimonial Slider 3 -->
+							<div class="sliderData">
+						
+							
+								<div class="single-testimonial">
+									<div class="subTestimonial">
+										<p>The app is now ready on both the Android and iOS platforms. Groovy Web LLP communicated with the client seamlessly. They strived for excellence and they were easy-going and professional.
+										</p>
+										<h4 class="author">Osama Shobaky <span class="author-pro">Founder & CEO, Shaamel </span></h4>
+									</div>
+									<div class="subTestimonial">
+										<p>The client is pleased with the final product. Groovy Web LLP managed the project well, delivering the product quickly without sacrificing quality.
+										</p>
+										<h4 class="author">Eduardo Sieber <span class="author-pro"> Founder, Online Psychotherapie & Coaching GmbH </span></h4>
+									</div>
+								</div>
+
+							</div>
+						<!-- Testimonial Slider 3 -->
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!--====== TESTIMONIAL SECTION END ======-->
+
+	<!--====== CONTACT SECTION START ======-->
+	<section class="contact-section pt-100 pb-200" id="contact">
+		<div class="container">
+
+			<div class="section-title text-center mb-70 wow fadeInLeft" data-wow-delay=".5s">
+				<h2 class="AboutTextSub blue">Got an idea?</h2>
+				<p class="title-tag">Let's chat and get started</p>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 wow fadeInLeft animated pt-20" data-wow-delay=".3s" style="visibility: visible;-webkit-animation-delay: .3s; -moz-animation-delay: .3s; animation-delay: .3s;">
+				
+					<ul class="contact-list">
+						<li>
+							<i class="fas fa-phone"></i>
+							Call Us
+						<a href="tel:+61 410996139"><span class="pt-10">+61 410996139</span> </a>
+						</li>
+						<li>
+							<i class="fas fa-map-marker-alt"></i>
+							Address
+							<span class="pt-10">Suite 8, Southside Specialist Centre, Springwood QLD 4217, Australia</span>
+						</li>
+						<li>
+							<i class="fas fa-envelope-open"></i>
+							Business Hours
+							<span class="pt-10">Monday - Saturday</span>
+							<span>9 AM - 7 PM</span>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-6 wow fadeInRight animated" data-wow-delay=".3s" style="visibility: visible;-webkit-animation-delay: .3s; -moz-animation-delay: .3s; animation-delay: .3s;">
+					<div class="contact-form">
+						<h4 class="title mb-20">Get in touch</h4>
+						<form id="contact_form" method="post" action="#">
+							<div class="row">
+								<div class="col-md-6">
+									<input class="effect-2" type="text" placeholder="Your Name" name="full_name" id="name" required>
+									<span class="focus-border"></span>
+								</div>
+								<div class="col-md-6">
+									<input class="effect-2" type="email" placeholder="Your Email" name="email" id="email" required>
+									<span class="focus-border"></span>
+								</div>
+								<div class="col-12 mt-30">
+									<textarea class="effect-2" name="message" id="message" placeholder="Your Message" required></textarea>
+									<span class="focus-border"></span>
+								</div>
+
+								<div class="col-md-12 mt-20">
+									<div class="form-group">
+									  <input name="nda" type="checkbox" id="NDA">
+									  <label for="NDA">Send me a copy of NDA</label>
+									</div>
+								  </div>
+	
+								  <div class="col-md-6 mt-20">
+									<div class="group-input-nda">
+									  <label for="">4 + 3 =</label>
+									  <input type="nda" class="form-control-nda" name="captcha" placeholder="" required>
+									  <span class="focus-border"></span>
+									</div>
+								  </div>
+
+								<div class="col-12 mt-50">
+										<div class="project-explore ReadMore text-left">
+											<p class="success-msg d-none">Thanks for contacting us! We will be in touch with you shortly.</p>
+											<button id="submit_btn" type="submit" class="custom-btn-blue common-btn blue wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;">Submit</button>
+										</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!--====== CONTACT SECTION END ======-->
+	<!--====== GO TO TOP PART START ======-->
+	<div class="go-top-area">
+		<div class="go-top-wrap">
+			<div class="go-top-btn-wrap">
+				<div class="go-top go-top-btn">
+					<i class="fal fa-angle-double-up"></i>
+					<i class="fal fa-angle-double-up"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--====== GO TO TOP PART ENDS ======-->
+	<!--====== FOOTER START ======-->
+	<footer class="pt-110">
+			<div class="container">
+				<div class="mapDiv">
+					<div class="footer-map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14089.039113532861!2d153.3917656!3d-28.0165349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd9334d338c55be5!2sGroovy%20Web!5e0!3m2!1sen!2sin!4v1622618257373!5m2!1sen!2sin" width="100%" height="350" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-widgets pt-200">
+			<div class="container container-extra">
+				<div class="row">
+					<div class="col-lg-12 col-md-6">
+						<div class="widget contact-widget">
+							<h2>Have any project <br> on your mind?</h2>
+							<ul class="contact-info">
+								<li><span>Phone:</span> <a href="tel:+61 410996139"> +61 410996139 </a></li>
+								<li><span>Email:</span> <a href="mailto:hello@gogroovyapps.com.au">hello@gogroovyapps.com.au</a></li>
+							</ul>
+							<ul class="social-icons">
+								<li><a href="https://www.facebook.com/groovyweb.co" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="https://twitter.com/groovywebco" target="_blank"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="https://www.instagram.com/groovyweb.co/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/groovyweb/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+							</ul>
+						</div>
+					</div>
+	
+				</div>
+			</div>
+		</div>
+		<div class="copyright-area">
+			<div class="container container-extra">
+				<div class="row align-items-center">
+					<div class="col-lg-12 text-center">
+						<p class="copyright-text">© 2022 All Rights Reserved. 
+							<!-- <a target="_blank" href="https://groovyweb.firm.in/">Groovy Web LLP</a>  -->
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--====== FOOTER END ======-->
+	<!--====== jquery js ======-->
+	<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+	<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+	<!--====== Bootstrap js ======-->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<!--====== Slick js ======-->
+	<script src="assets/js/slick.min.js"></script>
+	<!--====== Isotope js ======-->
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<!--====== Magnific Popup js ======-->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!--====== counterup js ======-->
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<!--====== waypoints js ======-->
+	<script src="assets/js/waypoints.min.js"></script>
+	<!--====== Wow Js ======-->
+	<script src="assets/js/wow.min.js"></script>
+	<!--====== Mean Menu ======-->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<!--====== OnePage Nav ======-->
+	<script src="assets/js/onepage-nav.min.js"></script>
+	<!--====== Main js ======-->
+	<script src="assets/js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8JSM01EN11"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8JSM01EN11');
+</script>
+</body>
+
+
+
+
+</html>
