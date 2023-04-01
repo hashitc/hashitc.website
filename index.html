@@ -812,20 +812,14 @@
   function sendMail() {
     var link = "mailto:contact@gogroovyapps.com.au"
              + "?cc=vidjath@gmail.com"
-             + "&subject=" + encodeURIComponent("New Lead") + encodeURIComponent("full_name")
+             + "&subject=" + encodeURIComponent("New Lead : ") + encodeURIComponent(document.getElementById('full_name').value)
              + "&body=" + encodeURIComponent(document.getElementById('message').value)
     ;
     
     window.location.href = link;
 }
 </script>
-<script src=
-"https://smtpjs.com/v3/smtp.js">
-</script>
 
 </body>
-
-
-
 
 </html>
