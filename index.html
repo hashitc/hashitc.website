@@ -1,10 +1,4 @@
-<?PHP
-	if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on") {
-		header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], true, 301);
-		//Prevent the rest of the script from executing.
-		exit;
-	}
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -693,12 +687,12 @@
 									<span class="focus-border"></span>
 								</div>
 
-								<div class="col-md-12 mt-20">
+								<!--<div class="col-md-12 mt-20">
 									<div class="form-group">
 									  <input name="nda" type="checkbox" id="NDA">
 									  <label for="NDA">Send me a copy of NDA</label>
 									</div>
-								  </div>
+								  </div> -->
 	
 								  <div class="col-md-6 mt-20">
 									<div class="group-input-nda">
@@ -711,7 +705,7 @@
 								<div class="col-12 mt-50">
 										<div class="project-explore ReadMore text-left">
 											<p class="success-msg d-none">Thanks for contacting us! We will be in touch with you shortly.</p>
-											<button id="submit_btn" type="submit" class="custom-btn-blue common-btn blue wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;">Submit</button>
+											<button id="submit_btn" onclick="sendMail(); return false" class="custom-btn-blue common-btn blue wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;">Submit</button>
 										</div>
 								</div>
 							</div>
@@ -814,7 +808,21 @@
   gtag('js', new Date());
 
   gtag('config', 'G-8JSM01EN11');
+
+  function sendMail() {
+    var link = "mailto:contact@gogroovyapps.com.au"
+             + "?cc=vidjath@gmail.com"
+             + "&subject=" + encodeURIComponent("New Lead") + encodeURIComponent("full_name")
+             + "&body=" + encodeURIComponent(document.getElementById('message').value)
+    ;
+    
+    window.location.href = link;
+}
 </script>
+<script src=
+"https://smtpjs.com/v3/smtp.js">
+</script>
+
 </body>
 
 
