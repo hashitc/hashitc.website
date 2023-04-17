@@ -10,8 +10,8 @@ if (
     exit;
 }
 
-$to = "hello@groovyweb.firm.in, krunalp1993@gmail.com";
-$subject = "New Contact Inquiry from Groovy web Au: ". $_POST['full_name'];
+$to = "hashitc@hashitc.com";
+$subject = "New Contact Inquiry from HASHITC web Au: ". $_POST['full_name'];
 
 $message = "
 <html>
@@ -46,7 +46,7 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers .= 'From: <info@groovyweb.com.au>' . "\r\n";
+$headers .= 'From: <hashitc@hashitc.com>' . "\r\n";
 
 if(mail($to,$subject,$message,$headers)) {
     echo 1; exit;
