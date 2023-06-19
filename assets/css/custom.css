@@ -429,7 +429,7 @@ display: block;
   
   .rightBring {
     display: flex;
-    flex: 0 0 60%;
+    flex: 0 0 40%;
     max-width: 100%;
     position: relative;
   }
@@ -437,14 +437,14 @@ display: block;
   
   .leftBring {
     display: flex;
-    flex: 0 0 40%;
+    flex: 0 0 60%;
     max-width: 100%;
     position: relative;
   }
   
   .box-blue {
     background-color: #0942AB;
-    width: 25%;
+    width: 50%;
     padding: 110px 0 100px 0;
   }
   .leftBring .box-blue {
